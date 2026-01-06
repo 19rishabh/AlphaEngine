@@ -1,5 +1,5 @@
 # Stage 1: Use an official Python runtime as a parent image
-FROM python:3.11-slim
+FROM python:3.10-slim
 
 # Stage 2: Install system-level dependencies required by LightGBM
 RUN apt-get update && apt-get install -y libgomp1
